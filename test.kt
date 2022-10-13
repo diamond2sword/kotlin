@@ -1,4 +1,4 @@
-```Kotlin
+//```Kotlin
 fun main() {
     val foo = Foo(Foo.Bar.BAR3, Foo.Baz.BAZ1)
     println(foo)
@@ -34,4 +34,4 @@ class I<T : I<T>> {
         return f in this
     }
 }
-```
+//```
