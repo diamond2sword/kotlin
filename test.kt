@@ -1,12 +1,12 @@
-```Kotlin
+//```Kotlin
 fun main() {
-    val foo = Foo(BAR3, BAZ1)
+    val foo = Foo(Foo.Bar.BAR3, Foo.Baz.BAZ1)
     println(foo)
 
-    val faa = Foo(BAR2, BAZ1)
+    val faa = Foo(Foo.Bar.BAR2, Foo.Baz.BAZ1)
     println(faa)
 
-    val fii = Foo(BAR3, BAZ1)
+    val fii = Foo(Foo.Bar.BAR3, Foo.Baz.BAZ1)
     println(fii)
 }
 
@@ -34,4 +34,4 @@ class I<T : I<T>> {
         return f in this
     }
 }
-```
+//```
